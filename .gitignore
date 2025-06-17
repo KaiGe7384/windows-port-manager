@@ -37,9 +37,11 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# 编译相关（但保留dist目录下的exe文件）
+# 编译相关
 *.spec
 build/
+# 不上传exe文件
+*.exe
 
 # 其他
 .DS_Store 
