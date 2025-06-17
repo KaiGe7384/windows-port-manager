@@ -1,0 +1,64 @@
+GitHub上传指南 - Windows端口管理工具
+====================================
+
+📋 当前状态：
+✅ Git仓库已初始化
+✅ 所有文件已添加并提交
+✅ 准备推送到GitHub
+
+🚀 手动上传步骤：
+
+1️⃣ 在GitHub上创建新仓库
+   - 登录 https://github.com
+   - 点击右上角 "+" 号，选择 "New repository"
+   - 仓库名称: windows-port-manager
+   - 描述: 🔌 Windows端口管理工具 - 现代化GUI界面的端口开放、防火墙控制和系统信息查看工具
+   - 设为公开仓库 (Public)
+   - 不要勾选 "Add a README file"（我们已经有了）
+   - 点击 "Create repository"
+
+2️⃣ 复制仓库地址
+   GitHub会显示类似这样的地址：
+   https://github.com/你的用户名/windows-port-manager.git
+
+3️⃣ 在命令行中执行以下命令：
+
+# 添加远程仓库（替换为你的实际GitHub地址）
+git remote add origin https://github.com/你的用户名/windows-port-manager.git
+
+# 推送到GitHub
+git branch -M main
+git push -u origin main
+
+🎯 完成后你的GitHub仓库将包含：
+├── main.py              # 主程序文件 (27KB)
+├── run.bat              # 启动脚本
+├── README.md            # 详细项目说明（包含程序截图）
+├── 使用说明.txt          # 使用说明
+├── cs1.jpg              # 程序界面截图 (131KB)
+├── dist/                # 编译输出目录
+│   └── Windows端口管理工具.exe  # 独立可执行文件 (26.8MB)
+└── .gitignore           # Git忽略文件
+
+🌟 推荐的仓库设置：
+- 添加标签: windows, port-manager, firewall, gui, python, customtkinter
+- 添加 topics: windows-tools, port-management, firewall-control
+- 启用 Issues 和 Discussions
+
+📢 推广建议：
+1. 在相关的QQ群、论坛分享
+2. 写博客介绍工具功能
+3. 在技术社区发布
+4. 邀请朋友给个Star⭐
+
+💡 后续维护：
+- 根据用户反馈添加新功能
+- 修复bug并更新版本
+- 定期更新依赖包
+- 完善文档和使用说明
+
+====================================
+当前提交信息：
+🎉 首次发布 Windows端口管理工具 v1.0
+完整的端口管理、防火墙控制和系统信息功能
+现代化GUI界面，独立exe文件 
